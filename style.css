@@ -217,6 +217,7 @@ nav a {
     display: inline;
 }
 
+
 .fade {
     opacity:0;
     -webkit-animation:fade ease-in 1;
@@ -263,7 +264,7 @@ nav a {
     height:650px
   }
 #aboutMe {
-  margin-bottom: 100%;
+  margin-bottom: 100px;
 }
   .icons {
     width: 50px;
