@@ -430,17 +430,17 @@
   }
 }
 
-.wrapper {
-  text-align: center;
+.wrapper{
+  background-color: rgb(247, 185, 72);
 }
 .navbar {
   position: fixed;
   overflow: hidden;
-  margin-top: 0;
-  /* max-height: 3em; */
   text-transform: uppercase;
   font-size: 1em;
   letter-spacing: 0.2vw;
+  font-family: 'freakshow', 'Courier New', Courier, monospace;
+  width: 99vw;
 }
 
 .navbar-nav {
@@ -450,7 +450,7 @@
 .jumbotron {
   background: url("./Assets/theatre-gc98979879_1920.jpg") fixed;
   background-size: cover;
-  max-height: 70vh;
+  height: 90vh;
   color: rgb(217, 253, 9);
   word-wrap: break-word;
   font-family: "lightdot";
@@ -463,6 +463,7 @@
   overflow: hidden;
   animation: presenting 2.5s steps(5000, end);
   margin: auto;
+  margin-top: 2em;
 }
 
 .fName {
@@ -510,6 +511,25 @@
   -o-animation: flicker normal forwards step-end 6s;
   animation: flicker normal forwards step-end 6s;
   animation-delay: 2s;
+}
+.site {
+  height: 15em;
+  text-align: center;
+}
+.card-body{
+  background-color: rgb(169, 173, 177);
+}
+#projects {
+  font-family: 'blackmilles', 'Courier New', Courier, monospace;
+  font-size: 3em;
+  letter-spacing: 0.2vw;
+}
+
+#aboutMe {
+  font-family: 'pumpkin', 'Courier New', Courier, monospace;
+  font-size: 3em;
+  letter-spacing: 0.2vw;
+
 }
 
 .about {
