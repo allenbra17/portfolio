@@ -1,22 +1,15 @@
 @font-face {
   font-family: blackmilles;
-  src: url("./Assets/blackmilles/Blackmilles.otf");
+  src: url("./Assets/fonts/blackmilles/Blackmilles.otf");
 }
 @font-face {
   font-family: freakshow;
-  src: url("./Assets/carnivalee_freakshow/Carnevalee\ Freakshow.ttf");
+  src: url("./Assets/fonts/carnivalee_freakshow/Carnevalee\ Freakshow.ttf");
 }
-@font-face {
-  font-family: pumpkin;
-  src: url("./Assets/witch_pumpkin/Witch\ Pumpkin\ ttf.ttf");
-}
-@font-face {
-  font-family: lcd2u;
-  src: url("./Assets/LCDWinTT/LCD2U___.TTF");
-}
+
 @font-face {
   font-family: lightdot;
-  src: url("./Assets/Lightdot-7x6.ttf");
+  src: url("./Assets/fonts/Lightdot-7x6.ttf");
 }
 
 @-webkit-keyframes fade {
@@ -448,7 +441,7 @@
 }
 
 .jumbotron {
-  background: url("./Assets/theatre-gc98979879_1920.jpg") fixed;
+  background: url("./Assets/images/theatre-gc98979879_1920.jpg") fixed;
   background-size: cover;
   height: 90vh;
   color: rgb(217, 253, 9);
@@ -526,7 +519,7 @@
 }
 
 #aboutMe {
-  font-family: 'pumpkin', 'Courier New', Courier, monospace;
+  font-family: 'blackmilles', 'Courier New', Courier, monospace;
   font-size: 3em;
   letter-spacing: 0.2vw;
 
