@@ -441,7 +441,7 @@
 }
 
 .jumbotron {
-  background: url("./Assets/images/theatre-gc98979879_1920.jpg") fixed;
+  background: url("./Assets/images/theatre-gc98979879_1920.jpg")fixed center;
   background-size: cover;
   height: 90vh;
   color: rgb(217, 253, 9);
