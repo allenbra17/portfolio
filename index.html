@@ -13,7 +13,7 @@
       crossorigin="anonymous"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body class="wrapper">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Brad's Portfolio</a>
@@ -43,13 +43,13 @@
       <section id="backToTop">
         <div class="jumbotron p-5">
           <div class="p-3">
-            <h1 class="presenting display-3 fw-bold pt-3 pb-3">Presenting</h1>
+            <h1 class="presenting lg-display-3 fw-bold pt-3 pb-3">Presenting</h1>
             <div class='fName pb-5'  id="fname">
-            <span class="fade name display-5 fw-bold">Brad<span class="flicker" id="ley">ley</span> Allen</span>
+            <h2 class="fade name lg-display-5 fw-bold">Brad<span class="flicker" id="ley">ley</span> Allen</h2>
             </div>
             <div class="pt-5">
-            <h1 class="fade title display-6 fw-bold pt-4">Junior</h1>
-            <h1 class="fade title2 display-6 fw-bold"> Developer</h1>
+            <h3 class="fade title lg-display-6 fw-bold pt-4">Junior</h1>
+            <h3 class="fade title2 lg-display-6 fw-bold"> Developer</h1>
             </div>
           </div>
         </div>
@@ -97,11 +97,11 @@
           </div>
         </div>
       </section>
-      <section id="aboutMe">
+      <section id="aboutMe mb-5 pb-5">
           <div class="container">
             <h1 class="text-center pb-3">Get to Know Me</h1>
             <div class="row">
-              <div class="col-8">
+              <div class="col-lg-8 col-md-8 pb-5">
                 <div class="card about">
                   <img src="./Assets/contact.png" class="card-img-top" alt="..." />
                   <div class="card-body">
@@ -128,7 +128,7 @@
                   </div>
                 </div>
               </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-4 pb-5">
                   <div class="card about">
                     <img src="./Assets/me.jpg" class="card-img-top" alt="me" id="me"/>
                     <div class="card-body">
@@ -145,29 +145,18 @@
                 </div>
             </div>
         </section>
-        <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark bg-opacity-50">
+        <nav class="navbar fixed-bottom navbar-dark bg-dark bg-opacity-50">
             <div class="container-fluid">
-              <a href="https://github.com/allenbra17"><img src="./Assets/github.png" alt="github" title='GitHub' class="icons"</a>
-              <a href="https://heroku.com/allenbra17"><img src="./Assets/heroku.png" alt="heroku" title="Heroku" class="icons"</a>
-              <a href="https://www.linkedin.com/in/allenbra17"><img src="./Assets/linkedIn.png" alt="linkedIn" title='LinkedIn' class="icons"</a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div id="foot">
+              <a href="https://github.com/allenbra17"><img src="./Assets/github.png" alt="github" title='GitHub' class="icons"/></a>
+              <a href="https://heroku.com/allenbra17"><img src="./Assets/heroku.png" alt="heroku" title="Heroku" class="icons"></a>
+              <a href="https://www.linkedin.com/in/allenbra17"><img src="./Assets/linkedIn.png" alt="linkedIn" title='LinkedIn' class="icons"></a>
+            </div>
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link active fw-bolder" aria-current="page" href="#backToTop">Back to Top</a>
                   </li>
                 </ul>
-              </div>
             </div>
           </nav>
     <script

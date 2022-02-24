@@ -1,279 +1,534 @@
 @font-face {
-    font-family: blackmilles;
-    src: url('./Assets/blackmilles/Blackmilles.otf');
-  }
+  font-family: blackmilles;
+  src: url("./Assets/blackmilles/Blackmilles.otf");
+}
 @font-face {
-    font-family:  freakshow;
-    src: url('./Assets/carnivalee_freakshow/Carnevalee\ Freakshow.ttf');
-  }
+  font-family: freakshow;
+  src: url("./Assets/carnivalee_freakshow/Carnevalee\ Freakshow.ttf");
+}
 @font-face {
-    font-family: pumpkin;
-    src: url('./Assets/witch_pumpkin/Witch\ Pumpkin\ ttf.ttf');
-  }
+  font-family: pumpkin;
+  src: url("./Assets/witch_pumpkin/Witch\ Pumpkin\ ttf.ttf");
+}
 @font-face {
-    font-family: lcd2u;
-    src: url('./Assets/LCDWinTT/LCD2U___.TTF');
-  }
+  font-family: lcd2u;
+  src: url("./Assets/LCDWinTT/LCD2U___.TTF");
+}
 @font-face {
-    font-family: lightdot;
-    src: url('./Assets/Lightdot-7x6.ttf');
-  }
+  font-family: lightdot;
+  src: url("./Assets/Lightdot-7x6.ttf");
+}
 
-@-webkit-keyframes fade { 
-  from { opacity:0; }
-  to { opacity:1; } 
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @-moz-keyframes fade {
-  from { opacity:0; }
-  to { opacity:1; } 
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @keyframes fade {
-  from { opacity:0; }
-  to { opacity:1; } 
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @-o-keyframes fade {
-  from { opacity:0; }
-  to { opacity:1; } 
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-
-   
-@keyframes presenting{ 
-    from { width: 0; } 
-    to {width:100%;}
-} 
-@-webkit-keyframes presenting{ 
-    from { width: 0; } 
-    to {width:100%;}
-} 
-@-moz-keyframes presenting{ 
-    from { width: 0; } 
-    to {width:100%;}
-} 
-@-o-keyframes presenting{ 
-    from { width: 0; } 
-    to {width:100%;}
-} 
+@keyframes presenting {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-webkit-keyframes presenting {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-moz-keyframes presenting {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-o-keyframes presenting {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 
 @keyframes flicker {
-  0%   { opacity:0; }
-  10% { opacity:1; }
-  15%  { opacity:0; }
-  20%   { opacity:1; }
-  30%   { opacity:0; }
-  40% { opacity:1; }
-  45% { opacity:0; }
-  50%  { opacity:1; }
-  55% { opacity:.25; }
-  60%   { opacity:1; }
-  65% { opacity:.5; }
-  70%  { opacity:0; }
-  75%  { opacity:.3; }
-  79% { opacity:1; }
-  84%  { opacity:0; }
-  88% { opacity:.5; }
-  90%   { opacity:0; }
-  92% { opacity:1; }
-  93%  { opacity:0; }
-  94% { opacity:.5; }
-  95%   { opacity:0; }
-  96% { opacity:1; }
-  97%  { opacity:0; }
-  98% { opacity:1; }
-  98.5% { opacity:.25; }
-  99%  { opacity:0; }
-  99.5% { opacity:1; }
-  100% { opacity:0; }
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0.25;
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0.5;
+  }
+  70% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.3;
+  }
+  79% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 0.5;
+  }
+  90% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 1;
+  }
+  93% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 0.5;
+  }
+  95% {
+    opacity: 0;
+  }
+  96% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 1;
+  }
+  98.5% {
+    opacity: 0.25;
+  }
+  99% {
+    opacity: 0;
+  }
+  99.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-  @-o-keyframes flicker{
-    0%   { opacity:0; }
-    10% { opacity:1; }
-    15%  { opacity:0; }
-    20%   { opacity:1; }
-    30%   { opacity:0; }
-    40% { opacity:1; }
-    45% { opacity:0; }
-    50%  { opacity:1; }
-    55% { opacity:.25; }
-    60%   { opacity:1; }
-    65% { opacity:.5; }
-    70%  { opacity:0; }
-    75%  { opacity:.3; }
-    79% { opacity:1; }
-    84%  { opacity:0; }
-    88% { opacity:.5; }
-    90%   { opacity:0; }
-    92% { opacity:1; }
-    93%  { opacity:0; }
-    94% { opacity:.5; }
-    95%   { opacity:0; }
-    96% { opacity:1; }
-    97%  { opacity:0; }
-    98% { opacity:1; }
-    98.5% { opacity:.25; }
-    99%  { opacity:0; }
-    99.5% { opacity:1; }
-    100% { opacity:0; }
-    }
-  @-moz-keyframes flicker{
-    0%   { opacity:0; }
-    10% { opacity:1; }
-    15%  { opacity:0; }
-    20%   { opacity:1; }
-    30%   { opacity:0; }
-    40% { opacity:1; }
-    45% { opacity:0; }
-    50%  { opacity:1; }
-    55% { opacity:.25; }
-    60%   { opacity:1; }
-    65% { opacity:.5; }
-    70%  { opacity:0; }
-    75%  { opacity:.3; }
-    79% { opacity:1; }
-    84%  { opacity:0; }
-    88% { opacity:.5; }
-    90%   { opacity:0; }
-    92% { opacity:1; }
-    93%  { opacity:0; }
-    94% { opacity:.5; }
-    95%   { opacity:0; }
-    96% { opacity:1; }
-    97%  { opacity:0; }
-    98% { opacity:1; }
-    98.5% { opacity:.25; }
-    99%  { opacity:0; }
-    99.5% { opacity:1; }
-    100% { opacity:0; }
-    }
-  @-webkit-keyframes flicker{
-    0%   { opacity:0; }
-    10% { opacity:1; }
-    15%  { opacity:0; }
-    20%   { opacity:1; }
-    30%   { opacity:0; }
-    40% { opacity:1; }
-    45% { opacity:0; }
-    50%  { opacity:1; }
-    55% { opacity:.25; }
-    60%   { opacity:1; }
-    65% { opacity:.5; }
-    70%  { opacity:0; }
-    75%  { opacity:.3; }
-    79% { opacity:1; }
-    84%  { opacity:0; }
-    88% { opacity:.5; }
-    90%   { opacity:0; }
-    92% { opacity:1; }
-    93%  { opacity:0; }
-    94% { opacity:.5; }
-    95%   { opacity:0; }
-    96% { opacity:1; }
-    97%  { opacity:0; }
-    98% { opacity:1; }
-    98.5% { opacity:.25; }
-    99%  { opacity:0; }
-    99.5% { opacity:1; }
-    100% { opacity:0; }
-    }
+@-o-keyframes flicker {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0.25;
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0.5;
+  }
+  70% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.3;
+  }
+  79% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 0.5;
+  }
+  90% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 1;
+  }
+  93% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 0.5;
+  }
+  95% {
+    opacity: 0;
+  }
+  96% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 1;
+  }
+  98.5% {
+    opacity: 0.25;
+  }
+  99% {
+    opacity: 0;
+  }
+  99.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes flicker {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0.25;
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0.5;
+  }
+  70% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.3;
+  }
+  79% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 0.5;
+  }
+  90% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 1;
+  }
+  93% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 0.5;
+  }
+  95% {
+    opacity: 0;
+  }
+  96% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 1;
+  }
+  98.5% {
+    opacity: 0.25;
+  }
+  99% {
+    opacity: 0;
+  }
+  99.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes flicker {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0.25;
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0.5;
+  }
+  70% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.3;
+  }
+  79% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 0.5;
+  }
+  90% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 1;
+  }
+  93% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 0.5;
+  }
+  95% {
+    opacity: 0;
+  }
+  96% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 1;
+  }
+  98.5% {
+    opacity: 0.25;
+  }
+  99% {
+    opacity: 0;
+  }
+  99.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
+.wrapper {
+  text-align: center;
+}
 .navbar {
-    position: fixed;
-    overflow: hidden;
-    width: 100%;
-    margin-top:0;
+  position: fixed;
+  overflow: hidden;
+  margin-top: 0;
+  /* max-height: 3em; */
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.2vw;
 }
 
 .navbar-nav {
-    margin-left: auto;
-}
-
-nav a {
-    text-transform: uppercase;
-    font-size: 2.5vh;
-    letter-spacing: .5vh;
+  margin-left: auto;
 }
 
 .jumbotron {
-    background: url('./Assets/theatre-gc98979879_1920.jpg') fixed;
-    background-size: cover;
-    height: 70vh;
-    color: rgb(217, 253, 9);
-    word-wrap: break-word;
-    font-family: 'lightdot';
-    text-align: center;
-    text-shadow:0px 5px 10px black;
+  background: url("./Assets/theatre-gc98979879_1920.jpg") fixed;
+  background-size: cover;
+  max-height: 70vh;
+  color: rgb(217, 253, 9);
+  word-wrap: break-word;
+  font-family: "lightdot";
+  text-align: center;
+  text-shadow: 0px 5px 10px black;
 }
 
 .presenting {
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: presenting 2.5s steps(5000, end);
-    margin:auto;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: presenting 2.5s steps(5000, end);
+  margin: auto;
 }
 
 .fName {
-    flex-direction: row;
-    display: inline;
+  flex-direction: row;
+  display: inline;
 }
-
 
 .fade {
-    opacity:0;
-    -webkit-animation:fade ease-in 1;
-    -moz-animation:fade ease-in 1;
-    animation:fade ease-in 1;
-  
-    -webkit-animation-fill-mode:forwards;
-    -moz-animation-fill-mode:forwards;
-    animation-fill-mode:forwards;
-  
-    -webkit-animation-duration:1s;
-    -moz-animation-duration:1s;
-    animation-duration:1s;
-  }
-  
-  .fade.name {
-    -webkit-animation-delay: 1.2s;
-    -moz-animation-delay: 1.2;
-    -o-animation-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-  }
-  .fade.title {
-    -webkit-animation-delay: 1.6s;
-    -moz-animation-delay: 1.6s;
-    -o-animation-animation-delay: 1.6s;
-    animation-delay: 1.6s;
-  }
-  .fade.title2 {
-    -webkit-animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    -o-animation-animation-delay: 2s;
-    animation-delay: 2s;
-  }
+  opacity: 0;
+  -webkit-animation: fade ease-in 1;
+  -moz-animation: fade ease-in 1;
+  animation: fade ease-in 1;
 
-  .flicker {
-     -webkit-animation: flicker  normal forwards step-end  6s;
-     -moz-animation: flicker  normal forwards step-end  6s;
-     -o-animation: flicker  normal forwards step-end  6s;
-      animation: flicker normal forwards step-end 6s;
-      animation-delay: 2s
-  }
-  
-  .about {
-    height:650px
-  }
-#aboutMe {
-  margin-bottom: 100%;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
 }
-  .icons {
-    width: 50px;
-    height: 50px;
-    opacity: 75%;
-  }
 
-  .icons:hover {
-    opacity: 100%;
-    border: 2px solid black ;
-    text-shadow:0px 5px 50px black;
-  }
+.fade.name {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2;
+  -o-animation-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+.fade.title {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  -o-animation-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+.fade.title2 {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.flicker {
+  -webkit-animation: flicker normal forwards step-end 6s;
+  -moz-animation: flicker normal forwards step-end 6s;
+  -o-animation: flicker normal forwards step-end 6s;
+  animation: flicker normal forwards step-end 6s;
+  animation-delay: 2s;
+}
+
+.about {
+  height: 40em;
+  text-align: initial;
+}
+
+#foot{
+  margin-right: auto;
+
+}
+.icons {
+  width: 2.5em;
+  height: 2.5em;
+  opacity: 75%;
+}
+
+.icons:hover {
+  opacity: 100%;
+  border: 2px solid black;
+  text-shadow: 0px 5px 50px black;
+}
